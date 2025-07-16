@@ -448,10 +448,11 @@ body {
   }
   .device {
     transform: scale(0.65);
+    margin-top: 250px;
   }
   
   .content-text {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
   }
   
   .content-text h2 {
@@ -467,5 +468,11 @@ body {
     top: -20%;
     left: -90%;
   }
-
+  /* .shape-2 {
+    bottom: -60%;
+    right: -60%;
+  } */
 }
+/* 
+@media screen and (max-width: 375px) {
+} */
