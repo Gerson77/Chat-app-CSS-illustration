@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Frontend Mentor | Chat app CSS illustration</title>
+  </head>
+  <body>
+    <div class="home">
+      <div class="shape-1"></div>
+      <div class="shape-2"></div>
+      <div class="device">
+        <div class="content-device">
+          <div class="bar">
+            <div class="safe-area"></div>
+            <div class="box-device">
+              <div class="content-bar">
+                <i class="fa-solid fa-arrow-left"></i>
+                <div class="avatar">
+                  <img src="./images/avatar.jpg" alt="" />
+                </div>
+                <div>
+                  <h2>Samuel Green</h2>
+                  <span>Available to Walk</span>
+                </div>
+              </div>
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+          </div>
+
+          <div class="messages">
+            <div class="box-message-received message-1" style="display: none">
+              <p>That sounds great. I’d be happy with that.</p>
+            </div>
+
+            <div class="box-message-received message-2" style="display: none">
+              <p>Could you send over some pictures of your dog, please?</p>
+            </div>
+
+            <div class="box-message-send-imgs message-3" style="display: none">
+              <img src="./images/dog-image-1.jpg" alt="" />
+              <img src="./images/dog-image-2.jpg" alt="" />
+              <img src="./images/dog-image-3.jpg" alt="" />
+            </div>
+
+            <div class="box-message-send message-4" style="display: none">
+              <p>Here are a few pictures. She’s a happy girl!</p>
+            </div>
+
+            <div class="box-message-send message-5" style="display: none">
+              <p>Can you make it?</p>
+            </div>
+          </div>
+
+          <div class="box-message-received message-6" style="display: none">
+            <p>
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+          </div>
+
+          <div class="box-pice price-1" style="display: none">
+            <div>
+              <i class="fa-regular fa-circle"></i>
+              <span>30 minute walk</span>
+            </div>
+            <h4>$29</h4>
+          </div>
+
+          <div class="box-pice price-2" style="display: none">
+            <div>
+              <i class="fa-regular fa-circle"></i>
+              <span>1 hour walk</span>
+            </div>
+            <h4>$49</h4>
+          </div>
+
+          <div class="typing-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="input-message chat-bubble">
+            <span id="typing-text"></span>
+            <div>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-text">
+        <h2>Simple booking</h2>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.frontendmentor.io/profile/Gerson77">Gerson77</a>.
+    </div> -->
+    <script src="./js/gsap.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
