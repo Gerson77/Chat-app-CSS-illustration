@@ -446,33 +446,33 @@ body {
   .content-text {
     margin-top: -50px;
   }
-}
-
-@media screen and (max-width: 375px) {
   .device {
     transform: scale(0.65);
-    margin-top: 250px;
+    /* margin-top: 250px; */
   }
-
-  .content-text {
+  
+  /* .content-text {
     margin-bottom: 100px;
-  }
-
+  } */
+  
   .content-text h2 {
     color: var(--purple-950);
     font-size: 32px;
   }
-
+  
   .content-text p {
     font-size: 16px;
   }
-
+  
   .shape-1 {
     top: -20%;
-    left: -110%;
+    left: -90%;
   }
-  .shape-2 {
+  /* .shape-2 {
     bottom: -60%;
     right: -60%;
-  }
+  } */
 }
+/* 
+@media screen and (max-width: 375px) {
+} */
