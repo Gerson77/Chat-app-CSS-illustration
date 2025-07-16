@@ -451,9 +451,9 @@ body {
     /* margin-top: 250px; */
   }
   
-  /* .content-text {
-    margin-bottom: 100px;
-  } */
+  .content-text {
+    margin-bottom: 40px;
+  }
   
   .content-text h2 {
     color: var(--purple-950);
