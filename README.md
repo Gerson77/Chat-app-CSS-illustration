@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/Gerson77/Chat-app-CSS-illustration)
-- Live Site URL: [Live site URL here](https://fylo-dark-theme-landing-page-five-eta.vercel.app/)
+- Live Site URL: [Live site URL here](https://chat-app-css-illustration-eight-rho.vercel.app/)
 
 ## My process
 
@@ -46,4 +46,4 @@ Users should be able to:
 ## Author
 - Website - [Portifolio](https://portifolio-puce-theta-49.vercel.app/)
 - Frontend Mentor - [@Gerson77](https://www.frontendmentor.io/profile/Gerson77)
-- Linkedin - [@gerson-santos-silva](https://www.twitter.com/yourusername)
+- Linkedin - [@gerson-santos-silva](https://www.linkedin.com/in/gerson-santos-silva/)
